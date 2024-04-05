@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@splinetool/react-spline": "^2.2.6",
     "@tailwindcss/typography": "^0.5.12",
     "next": "14.1.4",
     "nodemailer": "^6.9.13",

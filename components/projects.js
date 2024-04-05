@@ -1,6 +1,5 @@
 "use client";
 
-import Spline from "@splinetool/react-spline";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -16,14 +15,14 @@ const Projects = () => {
   };
   return (
     <>
-      <div
-        href="https://lexingtonthemes.com/"
-        className="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 hover:ring-primary/5 bg-white dark:bg-secondary  dark:hover:ring-white/20 overflow-hidden duration-300 shadow-xl dark:shadow-thick rounded-3xl p-8"
-      >
-        <div className=" md:h-[500px] md:w-[500px]  ">
-          <Spline
-            className="scale-[1]"
-            scene="https://prod.spline.design/bocyIfa7IbjrnXvD/scene.splinecode"
+      <div className="lg:row-span-2 ring-1 dark:ring-white/10 ring-primary/5 hover:ring-primary/5 bg-white dark:bg-secondary  dark:hover:ring-white/20 overflow-hidden duration-300 shadow-xl dark:shadow-thick rounded-3xl p-8">
+        <div class="-mr-24">
+          <Image
+            width={500}
+            height={500}
+            src="/images/portcover.png"
+            class="rounded-2xl object-cover ring-1 h-64 w-full lg:h-auto dark:ring-white/10 ring-primary/5 bg-tertiary"
+            alt="Cover Photo"
           />
         </div>
 
