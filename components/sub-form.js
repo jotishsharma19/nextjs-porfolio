@@ -98,7 +98,7 @@ const SubForm = () => {
                 className={`block w-full h-12 px-4 py-2 text-sm text-zinc-500 bg-zinc-100 dark:bg-tertiary ring-1 dark:ring-white/10 ring-primary/5 rounded-lg appearance-none focus:ring-white/20 placeholder-zinc-400 focus:border-zinc-300 focus:bg-primary focus:outline-none focus:ring-indigo-500 sm:text-sm ${
                   emailError ? "border-red-500" : ""
                 }`}
-                placeholder="name@flowbite.com"
+                placeholder="yourname@email.com"
                 required
                 value={email}
                 onChange={handleEmailChange}
